@@ -39,11 +39,11 @@ export class AppComponent {
     this.includeNumbers = !this.includeNumbers;
   }
 
-  onChangeAmbiguous() {
+  onChangeUseAmbiguous() {
     this.includeAmbiguous = !this.includeAmbiguous;
   }
 
-  onChangeSymbols() {
+  onChangeUseSymbols() {
     this.includeSymbols = !this.includeSymbols;
   }
 
